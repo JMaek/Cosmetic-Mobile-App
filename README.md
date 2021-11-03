@@ -1,6 +1,6 @@
-# cosmapp
+# Cosmetic App
 
-A new Flutter application.
+App which is going to contain skin care cosmetic database with simple and understandable description.
 
 ## Getting Started
 
