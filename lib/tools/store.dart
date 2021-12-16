@@ -29,11 +29,11 @@ List<Store> storeitems = [
       itemName: "Serum Aqua Activating",
       itemBrand: "Rovectin",
       itemType: "serum",
-      itemImage: "https://cdn.shopify.com/s/files/1/0269/3935/9309/products/SkinEssentialsAquaActivatingSerum_900x_54b63bdb-350a-4851-9eea-2e95c4c1dc1a_900x.jpg?v=1587781073",
+      itemImage: "",
       itemRate: 0.0
   ),
   Store.items(
-      itemName: "Artemisia Calming Intensive Serum",
+      itemName: "Artemisia Calming Intensive Serum zasdfghjkl",
       itemBrand: "BringGreen",
       itemType: "serum",
       itemImage: "https://images-na.ssl-images-amazon.com/images/I/51LFgKdSB%2BL._SX569_.jpg",
@@ -50,7 +50,7 @@ List<Store> storeitems = [
       itemName: "Time Revolution Artemisia Treatment Essence",
       itemBrand: "MISSHA",
       itemType: "esencja",
-      itemImage: "https://www.missha.pl/wp-content/uploads/2019/07/es.jpg",
+      itemImage: "",
       itemRate: 0.0
   ),
   Store.items(
@@ -65,6 +65,13 @@ List<Store> storeitems = [
       itemBrand: "It's Skin",
       itemType: "serum",
       itemImage: "https://cdn.shopify.com/s/files/1/0272/0222/4227/products/health-beauty-personal-care-cosmetics-skin-care-lotion-moisturizer-power-10-formula-gf-effector-serum-do-twarzy-30-ml-1_2000x.jpg?v=1573505991",
+      itemRate: 0.0
+  ),
+  Store.items(
+      itemName: "Kremik",
+      itemBrand: "NN",
+      itemType: "krem",
+      itemImage: "",
       itemRate: 0.0
   ),
 ];

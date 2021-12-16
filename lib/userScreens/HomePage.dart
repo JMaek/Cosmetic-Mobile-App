@@ -54,7 +54,9 @@ class _homePageState extends State<homePage> {
                   color: Colors.brown[900],
                   fontSize: 48.0,)
             ),
-            new IconButton(icon: Icon(Icons.category), onPressed: (){Navigator.of(context).push(new CupertinoPageRoute(builder: (BuildContext context){
+            new IconButton(icon: Icon(Icons.category),
+                onPressed: (){Navigator.of(context).push(new CupertinoPageRoute(
+                    builder: (BuildContext context){
               return new Cate();
               }));}
             )

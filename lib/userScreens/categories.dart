@@ -15,7 +15,7 @@ class _CateState extends State<Cate> {
       backgroundColor: Colors.amber[50],
       appBar: new AppBar(
           title: new Text(
-              "Kategorie",
+              "Kosmetyki",
               style: TextStyle(color: Colors.amber[50])
           ),
           centerTitle: true,
@@ -38,8 +38,15 @@ class _CateState extends State<Cate> {
                   BuildContext context, int index) {
                   return new GestureDetector(
                   onTap: () {
-                   Navigator.of(context).push( new MaterialPageRoute(
-                       builder: (context) => ItemDetail()));
+                   Navigator.of(context).push(new MaterialPageRoute(
+                       builder: (context) => new ItemDetail(
+                         itemImage: storeitems[index].itemImage,
+                         itemName: storeitems[index].itemName,
+                         itemType: storeitems[index].itemType,
+                         itemRate: storeitems[index].itemRate,
+                         itemBrand: storeitems[index].itemBrand,
+                         itemIngredients: storeitems[index].itemIngredients,
+                       )));
                   },
                    child: new Card(
                         child: new Stack(
@@ -69,11 +76,13 @@ class _CateState extends State<Cate> {
                                         children: <Widget>[
                                           new SizedBox(
                                               height: 15.0),
-                                          new Text(
-                                            storeitems[index].itemName,
-                                            style: new TextStyle(
-                                              fontWeight: FontWeight.w700,
-                                              fontSize: 12.0,
+                                          new Flexible(
+                                            child:  Text(
+                                              storeitems[index].itemName,
+                                              style: new TextStyle(
+                                                fontWeight: FontWeight.w700,
+                                                fontSize: 12.0,
+                                              ),
                                             ),
                                           ),
                                           new SizedBox(
